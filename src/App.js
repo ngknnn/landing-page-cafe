@@ -9,6 +9,11 @@ import ilota from "./asset/ilota.png";
 
 import coc from "./asset/coc.png";
 
+import icon1 from "./icon/icon1.png";
+import icon2 from "./icon/icon2.png";
+import icon3 from "./icon/icon3.png";
+import icon4 from "./icon/icon4.png";
+
 function App() {
   return (
     <div className="bg-[#191818] h-screen ">
@@ -62,7 +67,7 @@ const Component2 = () => {
 
 const Component3 = () => {
   return (
-    <div className=" h-screen w-screen  bg-black px-96    ">
+    <div className="  w-screen  bg-black px-96    ">
       <div
         className="h-[700px] flex flex-col justify-end items-center  bg-cover "
         style={{
@@ -86,6 +91,9 @@ const Component3 = () => {
             sự chuẩn xác và giữ trọn tinh hoa của từng hạt cà phê. Ilota không
             chỉ là một thương hiệu đồng hành mà còn là cầu nối giúp cà phê Việt
             chạm đến tiêu chuẩn quốc tế.
+          </div>
+          <div className="flex justify-center">
+            <div className="bg-[url('./asset/coc.png')] h-[500px] w-[400px]  bg-cover "></div>
           </div>
         </div>
       </div>
